@@ -1,0 +1,12 @@
+=Desenvolvimento Multiplataforma Cordova=
+
+Pre requisitos {
+   Java JDK
+   Node js
+}
+
+Install :   npm install -g cordova
+New Project :   cordova create nome_da_pasta id_com_empresa_nomeDoProjecto "nome_da_app"
+Add android :   create platform add android 
+Dispositivos : adb devices
+Compilar : cordova run android

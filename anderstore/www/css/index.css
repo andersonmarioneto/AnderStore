@@ -51,6 +51,11 @@ a {
     max-width: 100%;
 }
 
+.block {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 /* input search */
 
 form {

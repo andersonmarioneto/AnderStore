@@ -4,6 +4,7 @@
     --azul: #0055ff;
     --preto: #2a2a2a;
     --cinza: #322e2e;
+    --cinza-claro: #b3afaf;
     --amarelo: #ffd700;
 }
 
@@ -17,6 +18,36 @@ a {
     color: var(--azul);
     font-weight: 600;
     text-decoration: none;
+}
+
+form {
+    padding-top: 10px;
+    background-color: var(--branco);
+    padding-bottom: 20px;
+    /*border: 1px solid var(--preto);*/
+    position: relative;
+}
+
+input[type="text"] {
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px 20px;
+    background: var(--gelo);
+}
+
+::placeholder {
+    color: var(--cinza-claro);
+}
+
+.icone-busca {
+    position: absolute;
+    top: 0px;
+    right: 5%;
+    font-size: 27px;
+    padding: 13px;
+    color: var(--cinza);
 }
 
 .toolbar{

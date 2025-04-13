@@ -20,6 +20,14 @@ a {
     text-decoration: none;
 }
 
+/* body app */
+
+.page-content {
+    background-color: var(--branco);
+}
+
+/* input search */
+
 form {
     padding-top: 10px;
     background-color: var(--branco);
@@ -49,6 +57,8 @@ input[type="text"] {
     padding: 13px;
     color: var(--cinza);
 }
+
+/* navigation footer */
 
 .toolbar{
     height: 80px;
@@ -82,6 +92,8 @@ input[type="text"] {
 .toolbar-inner > .link i{
     font-size: 28px;
 }
+
+/* navgation header */
 
 .top-nav {
     width: 100%;

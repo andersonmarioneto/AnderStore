@@ -9,7 +9,7 @@ var app = new Framework7({
   id: 'com.myapp.test',
   // Enable swipe panel
   panel: {
-    swipe: true,
+    swipe: true,  
   },
   dialog: {
     buttonOk: 'Sim',
